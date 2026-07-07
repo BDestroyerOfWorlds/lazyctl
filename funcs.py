@@ -29,7 +29,7 @@ def wifi_on():
     subprocess.run(["systemctl", "start", "NetworkManager.service"], check=True)
     subprocess.run(["nmcli", "radio", "wifi", "on"], check=True)
 
-#trying starting the service first, doesnt work at the moment, 7/8 1:36
+#fixed it
 
 def wifi_off():
     subprocess.run(["rfkill", "block", "wifi"])
