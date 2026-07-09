@@ -44,3 +44,5 @@ sorry.
 currently a public beta
 
 built with Python 3.14.6
+
+linux only, as you can tell by the commands it runs
