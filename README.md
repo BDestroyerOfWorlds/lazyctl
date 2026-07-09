@@ -1,4 +1,4 @@
-lazyctl 0.1.2
+lazyctl 1.0.0-beta
 built with Python 3.14.6
 
   lazyctl - quick and easy wifi/bluetooth control
